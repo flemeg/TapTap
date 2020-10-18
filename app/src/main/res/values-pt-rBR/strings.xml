@@ -1,11 +1,13 @@
 <resources>
-    <string name="app_name">Tap, Tap</string>
+    <string name="app_name">Bate, Bate</string>
     <string name="accessibility_service_description">Serviço de Acessibilidade do TapTap\n\n<b>Aviso Importante: Nenhum dado de seus aplicativos será coletado, este serviço é utilizado simplesmente para manter o reconhecimento do gesto ativo e providenciar a interação com o seu dispositivo</b></string>
     <string name="toast_no_action_selected">Nenhuma ação selecionada</string>
     <string name="launch_accessibility">Abrir o menu de Acessibilidade</string>
     <string name="setting_gesture">Gesto</string>
     <string name="setting_gesture_desc">Ajustar como o gesto funciona</string>
     <string name="setting_actions">Ações</string>
+    <string name="setting_actions_double">Ações com 2 batidas</string>
+    <string name="setting_actions_triple">Ações com 3 batidas</string>
     <string name="setting_gates">Barreiras</string>
     <string name="setting_gates_desc">Definir situações em que o gesto não deve executar uma ação</string>
     <string name="setting_feedback">Feedback</string>
@@ -91,7 +93,7 @@
     <string name="accessibility_info_off">Serviço de Acessibilidade desativado</string>
     <string name="accessibility_info_off_desc">O gesto não irá funcionar. Toque para ativar</string>
     <string name="accessibility_info_on">Serviço de Acessibilidade ativado</string>
-    <string name="accessibility_info_toast">Selecione "Tap, Tap" na lista de serviços de acessibilidade, ative isso e retorne para o Tap, Tap para continuar</string>
+    <string name="accessibility_info_toast">Selecione "Bate, Bate" na lista de serviços de acessibilidade, ative isso e retorne para o Bate, Bate para continuar</string>
 
     <string name="category_about">Sobre</string>
     <string name="about">%1s v%2s</string>
@@ -124,5 +126,17 @@
     <string name="action_launch_shortcut_desc">Executar um atalho, como por exemplo: rotas do Google Maps</string>
     <string name="action_launch_shortcut_desc_formattable">Abrir %1s (atalho do app)</string>
     <string name="action_launch_shortcut_toast">Atualmente, este atalho não é suportado</string>
-    <string name="call_phone_permission_toast">Você precisa conceder ao Tap, Tap a permissão \"Telefone\" para usar este atalho como Ação. Faça isso nas configurações de permissões do seu dispositivo.</string>
+    <string name="call_phone_permission_toast">Você precisa conceder ao Bate, Bate a permissão \"Telefone\" para usar este atalho como Ação. Faça isso nas configurações de permissões do seu dispositivo.</string>
+
+    <!-- Sensitivity slider labels -->
+    <string name="slider_sensitivity_very_low">Very low</string>
+    <string name="slider_sensitivity_low">Low</string>
+    <string name="slider_sensitivity_normal">Normal</string>
+    <string name="slider_sensitivity_high">High</string>
+    <string name="slider_sensitivity_very_high">Very high</string>
+
+
+    <string name="switch_main">Ativar Gestos</string>
+    <string name="setup_battery_title">Desativar otimização de bateria</string>
+    <string name="setup_battery_button">Desativar otimização de bateria</string>
 </resources>

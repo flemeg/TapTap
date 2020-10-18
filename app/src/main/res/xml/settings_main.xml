@@ -74,25 +74,30 @@
 
         <com.kieronquinn.app.taptap.preferences.Preference
             android:title="@string/xda_thread"
+            app:isPreferenceVisible="false"
             android:icon="@drawable/ic_xda_round"
             android:key="about_xda"/>
 
         <com.kieronquinn.app.taptap.preferences.Preference
             android:title="@string/github"
+            app:isPreferenceVisible="false"
             android:icon="@drawable/ic_github_round"
             android:key="about_github"/>
 
         <com.kieronquinn.app.taptap.preferences.Preference
+            app:isPreferenceVisible="false"
             android:title="@string/donate"
             android:icon="@drawable/ic_donate_round"
             android:key="about_donate"/>
 
         <com.kieronquinn.app.taptap.preferences.Preference
             android:title="@string/twitter"
+            app:isPreferenceVisible="false"
             android:icon="@drawable/ic_twitter_round"
             android:key="about_twitter"/>
 
         <com.kieronquinn.app.taptap.preferences.Preference
+            app:isPreferenceVisible="false"
             android:title="@string/libraries"
             android:icon="@drawable/ic_libraries_round"
             android:key="about_libraries"/>

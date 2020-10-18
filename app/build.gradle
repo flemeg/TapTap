@@ -13,7 +13,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.kieronquinn.app.taptap"
+        applicationId "com.donne.app.taptap"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 9
